@@ -7,7 +7,7 @@ import os
 
 class ExampleFlow(Flow):
     model = "gemini/gemini-2.0-flash"
-    os.environ["GEMINI_API_KEY"] = "AIzaSyD7H5T4KU1dBNhBk4Vh_Hsb3vuWBKYM-x8"
+    os.environ["GeminiApiKey"] = "Replace your api key"
     @start()
     def generate_city(self):
         print("Starting flow")
